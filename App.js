@@ -1,27 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const heading = React.createElement(
-    "h1", {
-    id: "title"
-} , 
-"Hello world"
-);
-const heading2 = React.createElement(
-    "h2", {
-    id: "title"
-} , 
-"Hello world 2"
-);
+const Title = () => (
+    <h1 id="title">Food Villa</h1>
+)
 
-const conatiner = React.createElement(
-    "div",
-    {
-        id: "conatiner",
-    },
-    [heading,heading2]
-);
+const HeaderComponent = () => {
+    return (
+        <div>
+            <Title />
+        </div>
+    )
+}
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(conatiner);
+root.render(<HeaderComponent />);
