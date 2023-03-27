@@ -2949,6 +2949,7 @@ const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
 _c = Title;
 const Data = [
     {
+        id: 1,
         name: "La Pino'z Pizza",
         image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/obtyqt35sq55t0owwixq",
         cusines: [
@@ -2958,6 +2959,47 @@ const Data = [
         rating: "4.4"
     },
     {
+        id: 2,
+        name: "Bittoo Samosay Wala",
+        image: "https://b.zmtcdn.com/data/dish_photos/458/5b008f130ff38b41c1f87d363260b458.jpg?output-format=webp",
+        cusines: [
+            "Pizzas",
+            "Italian"
+        ],
+        rating: "4.4"
+    },
+    {
+        id: 3,
+        name: "Sethi's The Cake Shop",
+        image: "https://b.zmtcdn.com/data/pictures/2/302972/8d62178fa3729861e982606cf7a80f13_o2_featured_v2.jpg?output-format=webp",
+        cusines: [
+            "Pizzas",
+            "Italian"
+        ],
+        rating: "4.4"
+    },
+    {
+        id: 4,
+        name: "Flavor of Punjabi",
+        image: "https://b.zmtcdn.com/data/pictures/1/307511/2c93135b7d1095a7b6931bc9fb8ad13a_o2_featured_v2.jpg?output-format=webp",
+        cusines: [
+            "Pizzas",
+            "Italian"
+        ],
+        rating: "4.4"
+    },
+    {
+        id: 5,
+        name: "McDonald's",
+        image: "https://b.zmtcdn.com/data/pictures/chains/1/171/c6da9ad72c43cb2c2dc2c821d1f115ee.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+        cusines: [
+            "Pizzas",
+            "Italian"
+        ],
+        rating: "4.4"
+    },
+    {
+        id: 6,
         name: "La Pino'z Pizza",
         image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/obtyqt35sq55t0owwixq",
         cusines: [
@@ -2967,6 +3009,47 @@ const Data = [
         rating: "4.4"
     },
     {
+        id: 7,
+        name: "Bittoo Samosay Wala",
+        image: "https://b.zmtcdn.com/data/dish_photos/458/5b008f130ff38b41c1f87d363260b458.jpg?output-format=webp",
+        cusines: [
+            "Pizzas",
+            "Italian"
+        ],
+        rating: "4.4"
+    },
+    {
+        id: 8,
+        name: "Sethi's The Cake Shop",
+        image: "https://b.zmtcdn.com/data/pictures/2/302972/8d62178fa3729861e982606cf7a80f13_o2_featured_v2.jpg?output-format=webp",
+        cusines: [
+            "Pizzas",
+            "Italian"
+        ],
+        rating: "4.4"
+    },
+    {
+        id: 9,
+        name: "Flavor of Punjabi",
+        image: "https://b.zmtcdn.com/data/pictures/1/307511/2c93135b7d1095a7b6931bc9fb8ad13a_o2_featured_v2.jpg?output-format=webp",
+        cusines: [
+            "Pizzas",
+            "Italian"
+        ],
+        rating: "4.4"
+    },
+    {
+        id: 10,
+        name: "McDonald's",
+        image: "https://b.zmtcdn.com/data/pictures/chains/1/171/c6da9ad72c43cb2c2dc2c821d1f115ee.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+        cusines: [
+            "Pizzas",
+            "Italian"
+        ],
+        rating: "4.4"
+    },
+    {
+        id: 11,
         name: "La Pino'z Pizza",
         image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/obtyqt35sq55t0owwixq",
         cusines: [
@@ -2976,8 +3059,9 @@ const Data = [
         rating: "4.4"
     },
     {
-        name: "La Pino'z Pizza",
-        image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/obtyqt35sq55t0owwixq",
+        id: 12,
+        name: "Bittoo Samosay Wala",
+        image: "https://b.zmtcdn.com/data/dish_photos/458/5b008f130ff38b41c1f87d363260b458.jpg?output-format=webp",
         cusines: [
             "Pizzas",
             "Italian"
@@ -2985,8 +3069,29 @@ const Data = [
         rating: "4.4"
     },
     {
-        name: "La Pino'z Pizza",
-        image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/obtyqt35sq55t0owwixq",
+        id: 13,
+        name: "Sethi's The Cake Shop",
+        image: "https://b.zmtcdn.com/data/pictures/2/302972/8d62178fa3729861e982606cf7a80f13_o2_featured_v2.jpg?output-format=webp",
+        cusines: [
+            "Pizzas",
+            "Italian"
+        ],
+        rating: "4.4"
+    },
+    {
+        id: 14,
+        name: "Flavor of Punjabi",
+        image: "https://b.zmtcdn.com/data/pictures/1/307511/2c93135b7d1095a7b6931bc9fb8ad13a_o2_featured_v2.jpg?output-format=webp",
+        cusines: [
+            "Pizzas",
+            "Italian"
+        ],
+        rating: "4.4"
+    },
+    {
+        id: 15,
+        name: "McDonald's",
+        image: "https://b.zmtcdn.com/data/pictures/chains/1/171/c6da9ad72c43cb2c2dc2c821d1f115ee.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
         cusines: [
             "Pizzas",
             "Italian"
@@ -3003,21 +3108,21 @@ const ResturantCard = ({ name , image , cusines , rating  })=>{
                 alt: ""
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 39,
+                lineNumber: 104,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                 children: name
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 40,
+                lineNumber: 105,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                 children: cusines.join(",")
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 41,
+                lineNumber: 106,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
@@ -3027,13 +3132,13 @@ const ResturantCard = ({ name , image , cusines , rating  })=>{
                 ]
             }, void 0, true, {
                 fileName: "App.js",
-                lineNumber: 42,
+                lineNumber: 107,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 38,
+        lineNumber: 103,
         columnNumber: 10
     }, undefined);
 };
@@ -3041,19 +3146,19 @@ _c1 = ResturantCard;
 const Body = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "body",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResturantCard, {
-            name: Data.name,
-            image: Data.image,
-            cusines: Data.cusines,
-            rating: Data.rating
-        }, void 0, false, {
-            fileName: "App.js",
-            lineNumber: 47,
-            columnNumber: 9
-        }, undefined)
+        children: Data.map((data)=>/*#__PURE__*/ (0, _react.createElement)(ResturantCard, {
+                ...data,
+                key: data.id,
+                __source: {
+                    fileName: "App.js",
+                    lineNumber: 112,
+                    columnNumber: 27
+                },
+                __self: undefined
+            }))
     }, void 0, false, {
         fileName: "App.js",
-        lineNumber: 46,
+        lineNumber: 111,
         columnNumber: 10
     }, undefined);
 };
@@ -3063,7 +3168,7 @@ const Footer = ()=>{
         children: "Footer"
     }, void 0, false, {
         fileName: "App.js",
-        lineNumber: 51,
+        lineNumber: 116,
         columnNumber: 10
     }, undefined);
 };
@@ -3074,7 +3179,7 @@ const Header = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 55,
+                lineNumber: 120,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -3087,12 +3192,12 @@ const Header = ()=>{
                                 children: "Home"
                             }, void 0, false, {
                                 fileName: "App.js",
-                                lineNumber: 59,
+                                lineNumber: 124,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 58,
+                            lineNumber: 123,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -3101,12 +3206,12 @@ const Header = ()=>{
                                 children: "About"
                             }, void 0, false, {
                                 fileName: "App.js",
-                                lineNumber: 62,
+                                lineNumber: 127,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 61,
+                            lineNumber: 126,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -3115,12 +3220,12 @@ const Header = ()=>{
                                 children: "Contact"
                             }, void 0, false, {
                                 fileName: "App.js",
-                                lineNumber: 65,
+                                lineNumber: 130,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 64,
+                            lineNumber: 129,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -3129,29 +3234,29 @@ const Header = ()=>{
                                 children: "Cart"
                             }, void 0, false, {
                                 fileName: "App.js",
-                                lineNumber: 68,
+                                lineNumber: 133,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 67,
+                            lineNumber: 132,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "App.js",
-                    lineNumber: 57,
+                    lineNumber: 122,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 56,
+                lineNumber: 121,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 54,
+        lineNumber: 119,
         columnNumber: 10
     }, undefined);
 };
@@ -3161,17 +3266,17 @@ const AppLayout = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 76,
+                lineNumber: 141,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 77,
+                lineNumber: 142,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 78,
+                lineNumber: 143,
                 columnNumber: 7
             }, undefined)
         ]
@@ -3181,7 +3286,7 @@ _c5 = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 82,
+    lineNumber: 147,
     columnNumber: 13
 }, undefined));
 var _c, _c1, _c2, _c3, _c4, _c5;

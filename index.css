@@ -13,6 +13,7 @@
     border: 1px solid black;
     border-top: none;
     box-shadow: 0 0 10px ;
+    margin-bottom: 100px;
 }
 
 .nav_logo {
@@ -65,4 +66,5 @@
 .body {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }

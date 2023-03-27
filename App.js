@@ -12,32 +12,107 @@ const Title = () => (
 );
 
 const Data = [{
+    id: 1,
     name: "La Pino'z Pizza",
     image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/obtyqt35sq55t0owwixq",
     cusines: ["Pizzas" , "Italian"],
     rating: '4.4'
 },
 {
+    id: 2,
+    name: "Bittoo Samosay Wala",
+    image: "https://b.zmtcdn.com/data/dish_photos/458/5b008f130ff38b41c1f87d363260b458.jpg?output-format=webp",
+    cusines: ["Pizzas" , "Italian"],
+    rating: '4.4'
+},
+{
+    id: 3,
+    name: "Sethi's The Cake Shop",
+    image: "https://b.zmtcdn.com/data/pictures/2/302972/8d62178fa3729861e982606cf7a80f13_o2_featured_v2.jpg?output-format=webp",
+    cusines: ["Pizzas" , "Italian"],
+    rating: '4.4'
+},
+{
+    id: 4,
+    name: "Flavor of Punjabi",
+    image: "https://b.zmtcdn.com/data/pictures/1/307511/2c93135b7d1095a7b6931bc9fb8ad13a_o2_featured_v2.jpg?output-format=webp",
+    cusines: ["Pizzas" , "Italian"],
+    rating: '4.4'
+},
+{
+    id: 5,
+    name: "McDonald's",
+    image: "https://b.zmtcdn.com/data/pictures/chains/1/171/c6da9ad72c43cb2c2dc2c821d1f115ee.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+    cusines: ["Pizzas" , "Italian"],
+    rating: '4.4'
+},
+{
+    id: 6,
     name: "La Pino'z Pizza",
     image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/obtyqt35sq55t0owwixq",
     cusines: ["Pizzas" , "Italian"],
     rating: '4.4'
 },
 {
+    id: 7,
+    name: "Bittoo Samosay Wala",
+    image: "https://b.zmtcdn.com/data/dish_photos/458/5b008f130ff38b41c1f87d363260b458.jpg?output-format=webp",
+    cusines: ["Pizzas" , "Italian"],
+    rating: '4.4'
+},
+{
+    id: 8,
+    name: "Sethi's The Cake Shop",
+    image: "https://b.zmtcdn.com/data/pictures/2/302972/8d62178fa3729861e982606cf7a80f13_o2_featured_v2.jpg?output-format=webp",
+    cusines: ["Pizzas" , "Italian"],
+    rating: '4.4'
+},
+{
+    id: 9,
+    name: "Flavor of Punjabi",
+    image: "https://b.zmtcdn.com/data/pictures/1/307511/2c93135b7d1095a7b6931bc9fb8ad13a_o2_featured_v2.jpg?output-format=webp",
+    cusines: ["Pizzas" , "Italian"],
+    rating: '4.4'
+},
+{
+    id: 10,
+    name: "McDonald's",
+    image: "https://b.zmtcdn.com/data/pictures/chains/1/171/c6da9ad72c43cb2c2dc2c821d1f115ee.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+    cusines: ["Pizzas" , "Italian"],
+    rating: '4.4'
+},
+{
+    id: 11,
     name: "La Pino'z Pizza",
     image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/obtyqt35sq55t0owwixq",
     cusines: ["Pizzas" , "Italian"],
     rating: '4.4'
 },
 {
-    name: "La Pino'z Pizza",
-    image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/obtyqt35sq55t0owwixq",
+    id: 12,
+    name: "Bittoo Samosay Wala",
+    image: "https://b.zmtcdn.com/data/dish_photos/458/5b008f130ff38b41c1f87d363260b458.jpg?output-format=webp",
     cusines: ["Pizzas" , "Italian"],
     rating: '4.4'
 },
 {
-    name: "La Pino'z Pizza",
-    image: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/obtyqt35sq55t0owwixq",
+    id: 13,
+    name: "Sethi's The Cake Shop",
+    image: "https://b.zmtcdn.com/data/pictures/2/302972/8d62178fa3729861e982606cf7a80f13_o2_featured_v2.jpg?output-format=webp",
+    cusines: ["Pizzas" , "Italian"],
+    rating: '4.4'
+},
+{
+    id: 14,
+    name: "Flavor of Punjabi",
+    image: "https://b.zmtcdn.com/data/pictures/1/307511/2c93135b7d1095a7b6931bc9fb8ad13a_o2_featured_v2.jpg?output-format=webp",
+    cusines: ["Pizzas" , "Italian"],
+    rating: '4.4'
+},
+{
+    id: 15,
+    name: "McDonald's",
+    image: "https://b.zmtcdn.com/data/pictures/chains/1/171/c6da9ad72c43cb2c2dc2c821d1f115ee.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
     cusines: ["Pizzas" , "Italian"],
     rating: '4.4'
 },
@@ -57,7 +132,7 @@ const ResturantCard = ({name , image ,cusines,rating}) => {
 const Body = () => {
   return (
     <div className="body">
-        <ResturantCard name = {Data.name} image = {Data.image} cusines={Data.cusines} rating={Data.rating} />
+        {Data.map((data) => <ResturantCard {...data} key={data.id} /> )}
     </div>
   )
 };
